@@ -1,7 +1,7 @@
 // Get HTML elements
 const descriptionInput = document.getElementById('description');
 const amountInput = document.getElementById('amount');
-const typeInput = document.getElementById('type');
+const typeInput = document.getElementsByName('type');
 const transactionsList = document.getElementById('transactions');
 const balanceElement = document.getElementById('balance');
 
